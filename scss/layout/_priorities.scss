@@ -1,0 +1,70 @@
+.priorities {
+    padding-top: 94px;
+
+}
+.priorities__list
+ {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+ }
+.priorities-work__list {
+    display: flex;
+    gap: 30px;
+
+}
+
+.priorities__thumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+
+
+    background-color: #F5F4FA;
+}
+
+.priorities__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+
+}
+
+.priorities-work__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+
+    width: 270px;
+    height: 16px;
+
+    margin-bottom: 10px;
+    &:last-child {
+            margin-right: 0;
+        }
+}
+
+
+
+.priorities-work__text {
+
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+    width: 270px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+}
+

@@ -1,19 +1,29 @@
 .nav {
+    @media screen and (min-width: 480px) {
+            display: none;
+        }
 
-    display: flex;
-    align-items: center;
-
-
-
+     @media screen and (min-width: 768px) {
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+   
+         }
+    
 
 }
 
 .nav__list {
-
+        
     display: flex;
-
-    margin-right: 331px;
+    @media screen and (min-width: 767px) {
+            margin-right: 84px;}
+    @media screen and (min-width: 1200px) {
+            margin-right: 305px;
+        }
+   
 }
+
 
 .nav__link {
     position: relative;

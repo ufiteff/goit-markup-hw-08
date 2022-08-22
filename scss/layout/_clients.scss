@@ -1,21 +1,31 @@
 .clients {
     padding-bottom: 94px;
     padding-top: 94px;
+   
 }
 .clients__list {
+
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-wrap: wrap;
     gap: 30px;
+    @media screen and (min-width: 1200px) {
+        display: flex;    
+        flex-wrap: nowrap;
+        }
 
 }
 .clients__link {
      display: flex;
      align-items: center;
      justify-content: center;
-     width: 170px;
+     width: 210px;
      height: 92px;
-
+    @media screen and (min-width: 768px) {
+            width: 226px;
+    }
+    @media screen and (min-width: 1200px) {
+           width: 170px;
+        }
 
      border: 1px solid #AFB1B8;
      border-radius: 4px;
@@ -34,5 +44,6 @@
  .clients__icon {
      fill: currentColor;
  }
+ 
 
  
